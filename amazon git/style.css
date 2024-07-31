@@ -237,3 +237,60 @@ span{
 .copyright{
     padding: 5px;
 }
+/* Add responsiveness to the navbar */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-logo {
+    margin-bottom: 20px;
+  }
+  .nav-search {
+    width: 100%;
+  }
+}
+
+/* Add responsiveness to the shop section */
+@media only screen and (max-width: 768px) {
+  .shopsec {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Add responsiveness to the footer */
+@media only screen and (max-width: 768px) {
+  .footpanel2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footpanel2 ul {
+    margin-bottom: 20px;
+  }
+}
+
+/* Add responsiveness to the hero section */
+@media only screen and (max-width: 768px) {
+  .hero-sec {
+    height: 200px;
+  }
+  .hero-msg {
+    font-size: 1rem;
+  }
+}
+
+/* Add responsiveness to the panel */
+@media only screen and (max-width: 768px) {
+  .panel {
+    flex-direction: column;
+    align-items: center;
+  }
+  .panel-opts {
+    margin-bottom: 20px;
+  }
+}
